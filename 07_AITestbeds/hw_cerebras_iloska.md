@@ -35,4 +35,4 @@ Step=1000, Loss=7.07812, Rate=4850.11 samples/sec, GlobalRate=4861.66 samples/se
 ## For 512: <br/>
 RuntimeError: Initial global step 1000 already exceeds max step 1000. <br/>
 
-I am not sure if we needed to modify something else, but my code raises this error for batch size of 512.
+I am not sure if we needed to modify something else, but my code raises this error for batch size of 512. Both the 1024 and 2048 have a similar loss, even though the 1024 processed half the number of samples.
